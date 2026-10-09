@@ -297,6 +297,13 @@ ul,ol{list-style:none}
 .ft__copy{font-family:var(--f-en);font-size:.78rem;color:#7f929c}
 .ft__links{font-size:.86rem}
 .ft__links a{color:#c9d4da}
+.ft__en{max-width:46em;margin-top:6px;padding-top:20px;border-top:1px solid #2a3a46}
+.ft__en-title{font-family:var(--f-en);font-size:1rem;font-weight:700;color:#fff;letter-spacing:.02em}
+.ft__en>p{margin-top:6px;font-size:.86rem;line-height:1.75}
+.ft__en .ft__co{margin-top:12px;gap:8px}
+.ft__en .ft__co dt{min-width:9.5em;flex:none}
+.ft__en .ft__co dd{min-width:0;overflow-wrap:anywhere}
+@media(max-width:560px){.ft__en .ft__co div{flex-direction:column;gap:0}.ft__en .ft__co dt{min-width:0}}
 
 /* 個人情報の取り扱いなど、文章だけのページ */
 .doc{padding:104px 0 72px}
